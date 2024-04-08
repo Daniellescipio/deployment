@@ -1,0 +1,12 @@
+Product table data structure
+birds {
+    name : string (varchar(255)) unique
+    species: varchar (255)
+    price : Integer
+    migration : boolean
+}
+customers{
+    email varchar(255)
+    password varchar(255)
+    cart : []text
+}
